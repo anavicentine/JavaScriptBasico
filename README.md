@@ -8,7 +8,7 @@ https://anavicentine.github.io./JavaScriptBasico/Funcoes/funcoes.html
 
 ##Aula IMC
 
-https://anavicentine.github.io./JavaScriptBasico/imc/imc.html
+https://anavicentine.github.io./JavaScriptBasico/imc/index.html
 
 ##Aula tabuada
 
