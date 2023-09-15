@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(
+        90deg,
+        #9370DB,
+        #E6E6FA 100%
+            );
+     font-family: system-ui;
+}
