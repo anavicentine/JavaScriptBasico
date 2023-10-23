@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Orientação a objetos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+</head>
+<body>
+    <div class="nav1">
+        <nav class="navbar">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Objeto orientado</a>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="texto">
+        <h1>Objetos</h1>
+             <p> Um objeto é uma coleção de propriedades (características), e uma propriedade é uma associação entre um nome e um valor. Um valor de propriedade pode ser uma função, que é então considerada um método do objeto. Como por exemplo um carro, já que ele possui suas próprias características (propriedades) e seus métodos.</p>
+        <h1>Classes são "padrões":</h1>
+             <p>Já as classes são como padrões de como os objetos devem funcionar, mantendo o exemplo do carro, é como se houvesse um padrão geral para como uma categoria de carros precisa funcionar. </p>
+        <h1>Métodos são as ações:</h1>
+             <p>Além das suas características, os carros podem ter habilidades. Por exemplo, elas podem acelerar, dar ré ou dependendo, pode ter um carro que voe por exemplo. No JavaScript, chamamos essas habilidades de "métodos". Os métodos são ações que os objetos podem realizar.</p>
+        <h1>Criando Objetos:</h1>
+             <p>Quando você querer criar um objeto (carro), pega o modelo (classe) e o transforma em um carro de verdade (objeto). Cada objeto é uma versão específica da classe, com suas próprias propriedades e a capacidade para executar ações.</p>
+        <h1>Uso de Objetos:</h1>
+             <p>Depois de criar o seu objeto , você pode fazer com que ele realize ações (métodos) e determinar suas características (propriedades). Por exemplo, você pode fazer o carro fazer uma curva ou mudar a sua pintura.</p>
+             <p>Ou seja, programação orientada a objetos em JavaScript é como criar coisas (objetos) com base em modelos (classes) e permitir que essas coisas tenham características (propriedades) e ações (métodos), como carros.</p>
+    </div>
+
+    <br>
+    
+
+    <div class="container">
+        <h1>Exemplo</h1>
+        <form id="personForm">
+            <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
+            <br>
+            <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
+            <br>
+            <input type="text" id="language" class="form-control" class="form-label" placeholder="Personalidade">
+            <br>
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <br>
+        </form> 
+      
+
+        <br>
+        <div class="display-details">
+            <p>Resposta</p>
+            <p>Nome: <span id="displayFirstName"></span></p>
+            <p>Sobrenome: <span id="displayLastName"></span></p>
+            <p>Personalidade: <span id="displayLanguage"></span></p>
+        </div>
+    </div> 
+
+
+    <footer class="footer">
+        Ana Laura Vicentine
+    </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
