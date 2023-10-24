@@ -40,25 +40,40 @@
     <div class="container">
         <h1>Exemplo</h1>
         <form id="personForm">
-            <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
-            <br>
-            <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
-            <br>
-            <input type="text" id="language" class="form-control" class="form-label" placeholder="Personalidade">
-            <br>
-            <button type="submit" class="btn btn-success">Enviar</button>
-            <br>
-        </form> 
-      
+            <input type="text" id="firstName" placeholder="Nome">
+            <input type="text" id="lastName" placeholder="Sobrenome">
+            <input type="text" id="language" placeholder="Língua">
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="display-details">
+            
+        <div class="display-details">
+          <table class="table table-bordered table-dark">
+            <thead>
+              <tr>
+               
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Língua</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+               
+              </tr>
+              </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+        </div>
+    </div>
 
         <br>
-        <div class="display-details">
-            <p>Resposta</p>
-            <p>Nome: <span id="displayFirstName"></span></p>
-            <p>Sobrenome: <span id="displayLastName"></span></p>
-            <p>Personalidade: <span id="displayLanguage"></span></p>
-        </div>
-    </div> 
 
 
     <footer class="footer">
