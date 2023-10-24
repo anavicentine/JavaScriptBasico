@@ -1,0 +1,103 @@
+
+img{
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   margin-top: 20px;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+    90deg,
+    #9370DB,
+    #E6E6FA 100%
+        );
+    margin-left: 20px;
+}
+
+#personForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+h1{
+    padding-top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f10d0d; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(133, 31, 143, 0.5); 
+}
+
+p{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #400974;
+}
+
+.texto{
+    text-align: center;
+}
+
+
+.display-details {
+    margin-top: 20px;
+    border-style: solid;
+}
+
+.p2{
+    text-align: center;
+}
+
+.footer {
+    margin-top: 10%;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.nav1{
+    background-color: #333;
+}
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ad69da; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(167, 92, 236, 0.74); 
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
