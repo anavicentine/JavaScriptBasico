@@ -17,3 +17,8 @@ https://anavicentine.github.io./JavaScriptBasico/lacotabuada/index.html
 ##Aula objeto orientado
 
 https://anavicentine.github.io./JavaScriptBasico/site_obj/index.html
+
+##Aula objeto orientado com laço
+
+https://anavicentine.github.io./JavaScriptBasico/site_obj2/index.html
+
