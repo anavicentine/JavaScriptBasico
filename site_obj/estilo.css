@@ -40,17 +40,17 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    color: #000000; 
+    color: #f10d0d; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(133, 31, 143, 0.5); 
 }
 
 p{
     padding-top: 10px;
     padding-bottom: 4px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    color: #400974;
 }
 
 .texto{
