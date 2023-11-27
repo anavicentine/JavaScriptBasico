@@ -26,3 +26,7 @@ https://anavicentine.github.io./JavaScriptBasico/site_obj2/index.html
 
 https://anavicentine.github.io./JavaScriptBasico/eventos/index.html
 
+##Aula jQuery e Regex e Validação de Formulário
+
+https://anavicentine.github.io./JavaScriptBasico/validacao-form/index.html
+
